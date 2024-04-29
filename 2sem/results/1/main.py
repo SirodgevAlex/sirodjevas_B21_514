@@ -17,10 +17,10 @@ def rgb_to_grayscale(image):
 
     return gray_image
 
-image = Image.open("example.png")
+image = Image.open("input/9.png")
 
 gray_image = rgb_to_grayscale(image)
 
-gray_image.save("gray_example.png")
+gray_image.save("output/9.png")
 
 gray_image.show()
