@@ -7,7 +7,7 @@ def generate_symbol_image(symbol, font_name, font_size, output_dir):
     text_width, text_height = mask.size
 
     top_padding = 0
-    bottom_padding = 6
+    bottom_padding = 10
     text_height += top_padding + 5 * bottom_padding
     
     image = Image.new("L", (text_width, text_height), color="white")
