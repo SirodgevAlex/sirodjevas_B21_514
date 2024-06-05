@@ -1,0 +1,51 @@
+phrase:      жүрегіңдікөрсеңде,жүректердікөрмесеңде,оларбар
+detected:    жүрегічдіжeрсеңдеiжүрежгердіжeрмесечдеiоларбар
+correct:     78%
+
+has | got | correct
+ж	к	False
+ү	ү	True
+р	p	True
+е	e	True
+г	г	True
+і	i	True
+ң	ч	False
+д	д	True
+і	i	True
+к	ж	False
+ө	e	False
+р	p	True
+с	c	True
+е	e	True
+ң	ч	False
+д	д	True
+е	e	True
+,	i	False
+ж	ж	True
+ү	ү	True
+р	p	True
+е	я	True
+к	ж	False
+т	г	False
+е	e	True
+р	p	True
+д	д	True
+і	i	True
+к	ж	False
+ө	e	False
+р	p	True
+м	м	True
+е	e	True
+с	c	True
+е	e	True
+ң	ч	False
+д	д	True
+е	e	True
+,	i	False
+о	o	True
+л	л	True
+а	а	True
+р	р	True
+б	б	True
+а	а	True
+р	р	True

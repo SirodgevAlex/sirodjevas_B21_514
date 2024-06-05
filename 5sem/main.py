@@ -90,7 +90,7 @@ def main():
     output_dir = "symbols"
     os.makedirs(output_dir, exist_ok=True)
     
-    symbols = "абвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщъыіьэюя"
+    symbols = "аәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщъыіьэюя"
     
     for symbol in symbols:
         generate_symbol_image(symbol, font_name, font_size, output_dir)
@@ -118,6 +118,7 @@ def main():
         print("Vertical Moment of Inertia:", vertical_moment)
         print("Normalized Horizontal Moment of Inertia:", normalized_horizontal_moment)
         print("Normalized Vertical Moment of Inertia:", normalized_vertical_moment)
+        print("Normalized Moments of Inertia:", (normalized_horizontal_moment, normalized_vertical_moment))
         print("X Profile:", x_profile)
         print("Y Profile:", y_profile)
         print()
